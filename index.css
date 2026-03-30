@@ -1,0 +1,454 @@
+/* Background of the hero section */
+.hero-wrapper {
+    min-height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
+        url("../IMG/Hero.webp");
+    opacity: 0.85;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 8px 35px black;
+}
+
+
+
+/* Hero Section */
+.slogan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 120px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 800;
+    font-style: normal;
+    font-size: 56px;
+    color: white;
+    text-shadow: 0 4px 4px black;
+}
+
+.hero p {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+    text-shadow: 0 4px 4px black;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 24px;
+}
+
+.hero span {
+    display: block;
+    margin-top: 0.5rem;
+}
+
+
+
+/* Main of the page */
+.main {
+    background-image: linear-gradient(#F6EADD, #F5E9DC);
+}
+
+.cooked-for-you {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 200px;
+}
+
+.cooked-for-you img {
+    width: 319px;
+    height: 303px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    animation: 2s bounce-right ease-in-out infinite;
+}
+
+@keyframes bounce-right {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(3px);
+    }
+}
+
+.atmosphere {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+}
+
+.atmosphere img {
+    width: 319px;
+    height: 303px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.35);
+    animation: 2s bounce-left ease-in-out infinite;
+}
+
+@keyframes bounce-left {
+
+    0%,
+    100% {
+        transform: translateX(0);
+    }
+
+    50% {
+        transform: translateX(-3px);
+    }
+}
+
+.our-team {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding-top: 50px;
+    padding-bottom: 200px;
+}
+
+.our-team img {
+    width: 319px;
+    height: 303px;
+    object-fit: cover;
+    border-radius: 30px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.35);
+    animation: 2s bounce-right ease-in-out infinite;
+}
+
+.left-main {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.main h2 {
+    position: relative;
+    font-size: 36px;
+    padding-bottom: 10px;
+}
+
+.main h2::after {
+    content: "";
+    border: 1.5px solid black;
+    position: absolute;
+    background: black;
+    border-radius: 5px;
+    left: 0;
+    bottom: 0;
+    height: 1px;
+    width: 100%;
+}
+
+.left-main p {
+    max-width: 900px;
+    font-size: 20px;
+}
+
+.right-main {
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.right-main h2 {
+    text-align: right;
+}
+
+.right-main p {
+    text-align: right;
+    max-width: 900px;
+    font-size: 20px;
+}
+
+.br {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+
+
+/* Our varieties section */
+.our-varieties {
+    padding-top: 50px;
+    min-height: 100vh;
+    color: white;
+    text-decoration: none;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
+        url(../IMG/Bar-onside.webp);
+    opacity: 0.85;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    box-shadow: 0 -8px 35px black;
+    box-shadow: 0 8px 35px black;
+}
+
+.our-varieties h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 48px;
+    margin-bottom: 20px;
+}
+
+.textP {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.marge {
+    margin-bottom: 50px;
+}
+
+.big-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.main-course {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    padding: 8px 8px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+}
+
+.main-course a {
+    color: black;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.main-course .container {
+    position: relative;
+    width: 386px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 1px black;
+    transform: translateZ(0);
+}
+
+.main-course ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.main-course .slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.container button {
+    position: absolute;
+    background: none;
+    border: none;
+    outline: none;
+    font-size: 2.6rem;
+    z-index: 2;
+    cursor: pointer;
+    color: rgb(243, 241, 241);
+    transform: translateY(-50%);
+    top: 50%;
+}
+
+.prev-btn {
+    left: 5px;
+}
+
+.next-btn {
+    right: 5px;
+}
+
+.slide img {
+    display: block;
+    width: 386px;
+    height: 380px;
+    object-fit: cover;
+    border-radius: 20px;
+}
+
+.dessert {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    padding: 8px 8px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.dessert a {
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.dessert .container {
+    position: relative;
+    width: 386px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 1px black;
+    transform: translateZ(0);
+}
+
+.dessert ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.dessert .slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.drink {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    background: rgba(255, 255, 255, 0.8);
+    border-radius: 20px;
+    box-shadow: 0 0 20px black;
+    padding: 8px 8px;
+    color: black;
+    font-size: 18px;
+    position: relative;
+
+}
+
+.drink a {
+    color: black;
+    margin-top: 25px;
+    margin-bottom: 15px;
+    border: 2px solid black;
+    background: white;
+    padding: 7px 7px;
+    border-radius: 30px;
+}
+
+.drink .container {
+    position: relative;
+    width: 386px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 0 0 1px black;
+    transform: translateZ(0);
+}
+
+.drink ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.4s ease-in-out;
+}
+
+.drink .slide {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+}
+
+.container-menu-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 70px;
+}
+
+.menu-btn {
+    text-decoration: none;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    color: white;
+    font-size: 22px;
+    padding: 7px 7px;
+    border: 2px solid white;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+
+
+/* Footer of the page */

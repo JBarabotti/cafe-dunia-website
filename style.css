@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/* Header */
+hr {
+    border: none;
+    height: 1.5px;
+    background-color: #B4B2B2;
+}
+
+
+
+/* Above the nav menu */
+.top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 18px 40px;
+    background-color: rgba(0, 0, 0, 0.45);
+    position: relative;
+    font-family: "Jost", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.top-nav i {
+    font-size: 18px;
+    color: #00A2C7;
+}
+
+.top-text {
+    font-size: 15px;
+}
+
+.top-nav-left {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.top-nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.top-contact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+
+
+/* Nav menu */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.45);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo p {
+    font-family: "Great Vibes", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 42px;
+    color: white;
+}
+
+.nav-nav {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    margin-right: -200px;
+}
+
+.nav-nav a {
+    position: relative;
+    color: white;
+}
+
+.nav-nav a::after {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    height: 3px;
+    border-radius: 2px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 0;
+    background-color: white;
+    transition: width 0.3s ease;
+}
+
+.nav-nav a:hover::after {
+    width: 100%;
+}
+
+.btn-order {
+    margin-right: 120px;
+    padding: 12px 22px;
+    border-radius: 15px;
+    background: none;
+    border: 2px solid #3FC060;
+    font-family: "Quicksand", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 17px;
+    color: #3FC060;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(63, 192, 96, 0.5);
+    text-shadow: 0 4px 10px rgba(63, 192, 96, 0.5);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-order:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 10px rgba(63, 192, 96, 0.5);
+}

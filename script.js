@@ -22,7 +22,7 @@ function initCarousel(carouselContainer) {
         if (isAnimating) return;
         isAnimating = true;
         direction = 1;
-        
+
         track.style.transition = 'transform 0.7s ease-in-out';
         track.style.transform = 'translateX(-100%)';
     }
@@ -35,7 +35,7 @@ function initCarousel(carouselContainer) {
         track.style.transition = 'none';
         track.prepend(track.lastElementChild);
         track.style.transform = 'translateX(-100%)';
-        
+
         void track.offsetWidth;
 
         track.style.transition = 'transform 0.7s ease-in-out';
@@ -49,9 +49,9 @@ function initCarousel(carouselContainer) {
             track.style.transition = 'none';
             track.appendChild(track.firstElementChild);
             track.style.transform = 'translateX(0)';
-            void track.offsetWidth; 
+            void track.offsetWidth;
         }
-        
+
         isAnimating = false;
         direction = 0;
     });
@@ -66,7 +66,7 @@ function initCarousel(carouselContainer) {
         resetAutoSlide();
     });
 
-    void track.offsetWidth; 
+    void track.offsetWidth;
 
     startAutoSlide();
 }

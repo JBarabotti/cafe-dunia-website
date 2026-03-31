@@ -3,7 +3,7 @@
     min-height: 100vh;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)),
-        url("../IMG/Hero.webp");
+        url("IMG/Hero.webp");
     opacity: 0.85;
     background-size: cover;
     background-position: center;
@@ -192,7 +192,7 @@
     text-decoration: none;
     background-image:
         linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),
-        url(../IMG/Bar-onside.webp);
+        url("IMG/Bar-onside.webp");
     opacity: 0.85;
     background-size: cover;
     background-position: center;
